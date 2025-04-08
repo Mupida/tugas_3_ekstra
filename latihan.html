@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Float</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .container{
+            width: 100%;
+            margin: 0 auto;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+
+        p {
+            font-size: 16.8px;
+        }
+
+        .cat {
+            background-color: aquamarine;
+            padding: 10px;
+            width: 40%;
+            border-radius: 10px;
+        }
+        
+        .dog {
+            background-color: coral;
+            width: 40%;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        img {
+            float: left;
+            margin-right: 10px;
+            width: 200px;
+            height: auto;
+        }
+
+        footer {
+            clear: both;
+            text-align: center;
+            background-color: blueviolet;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="cat">
+            <h1>Cat comelku</h1>
+            <img src="cat.jpg.jpg" alt="cat in a box" />
+            <p class="first-paragraph">
+                Nap all day cat dog hate mouse eat string barf pillow baths hate everything but kitty poochy.
+                Sleep on keyboard toy mouse squeak roll over. Mesmerizing birds.
+                Poop on grasses licks paws destroy couch intently sniff hand.
+                The dog smells bad gnaw the corn cob.
+            </p>
+        </div>
+    
+        <div class="dog">
+            <h2>Dog comelku</h2>
+            <img src="anjingku.jpg.jpg" alt="dogs in a box" />
+            <p class="second-paragraph">
+                Nap all day cat dog hate mouse eat string barf pillow baths hate everything but kitty poochy.
+                Sleep on keyboard toy mouse squeak roll over. Mesmerizing birds.
+                Poop on grasses licks paws destroy couch intently sniff hand.
+                The dog smells bad gnaw the corn cob.
+            </p>
+        </div>
+    </div>
+
+    <footer>copyright @Mupidaanhar</footer>
+</body>
+
+</html>
